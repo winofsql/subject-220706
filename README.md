@@ -28,3 +28,5 @@
 ```javascript
 $(".form-control").each( function( index ){ console.log(this.name) })
 ```
+
+![image](https://user-images.githubusercontent.com/1501327/177472638-b4647971-0e87-440c-8143-177e739ef7e9.png)
