@@ -30,3 +30,29 @@ $(".form-control").each( function( index ){ console.log(this.name) })
 ```
 
 ![image](https://user-images.githubusercontent.com/1501327/177472638-b4647971-0e87-440c-8143-177e739ef7e9.png)
+
+
+### 問い合わせ用 SQL
+```SQL
+select
+    社員コード,
+    氏名,
+    フリガナ,
+    所属,
+
+    case 性別
+        when 1 then '男'
+        when 0 then '女'
+    end as 性別,
+
+    DATE_FORMAT(作成日,'%Y/%m/%d') as 作成日,
+    DATE_FORMAT(更新日,'%Y/%m/%d') as 更新日,
+    給与,
+    手当,
+    管理者,
+    DATE_FORMAT(生年月日,'%Y/%m/%d') as 生年月日
+from 社員マスタ
+where 氏名 like :name
+order by 社員コード
+```
+
