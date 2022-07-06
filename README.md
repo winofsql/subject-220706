@@ -11,3 +11,5 @@
 
 ![image](https://user-images.githubusercontent.com/1501327/177448043-f1cb6fb2-bc43-4887-a5e6-3fd5b245e8ab.png)
 
+### 新規入力
+![image](https://user-images.githubusercontent.com/1501327/177456257-dcd98d59-b183-4dfb-acc6-dc44f039ec3d.png)
