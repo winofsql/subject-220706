@@ -82,3 +82,16 @@ select
 where 社員マスタ.氏名 like :name
 order by 社員マスタ.社員コード
 ```
+
+```javascript
+<script>
+$( function(){
+
+    $("tr").on("click", function(){
+        var scode = $(this).find("td").eq(0).text();
+        alert(scode);
+    });
+
+});    
+</script>
+```
