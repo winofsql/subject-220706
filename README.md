@@ -23,3 +23,8 @@
 - stype
 - skbn
 - biko
+
+
+```javascript
+$(".form-control").each( function( index ){ console.log(this.name) })
+```
