@@ -95,3 +95,18 @@ $( function(){
 });    
 </script>
 ```
+
+```
+<script>
+$( function(){
+
+    $("tr").on("click", function(){
+        var scode = $(this).find("td").eq(0).text();
+        opener.$("#scode").val(scode);
+        opener.$("#btn").click();
+        window.close();
+    });
+
+});    
+</script>
+```
