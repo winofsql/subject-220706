@@ -13,3 +13,13 @@
 
 ### 新規入力
 ![image](https://user-images.githubusercontent.com/1501327/177456257-dcd98d59-b183-4dfb-acc6-dc44f039ec3d.png)
+
+
+### 商品マスタメンテ
+- scode
+- sname
+- ztanka
+- htanka
+- stype
+- skbn
+- biko
